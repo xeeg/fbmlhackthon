@@ -1,0 +1,94 @@
+OBJECTID,Shape,NAME,ADDRESS,PHONE,WEBSITE,GRADE,CITY,ZIP
+1,"(47.66567842200004, -122.31368391799998)",Academy for Precision Learning,5031 University Way NE,206.427.0115,www.aplschool.org,K-12,Seattle,98105-4341
+2,"(47.638569070000074, -122.36049002799996)",Alcuin School,216 W Boston,206.286.0771,www.alcuinschool.com,P-1,Seattle,98119-2641
+3,"(47.52702835800005, -122.26965109499997)",Alfajer School,8430 Rainier Ave S,206.747.9036, ,K-12,Seattle,98118-4655
+4,"(47.67485324000006, -122.29283895099996)",Assumption St. Bridget School,6220 32nd Ave NE,206.524.7452,www.asbschool.org,P-8,Seattle,98115-7233
+5,"(47.63931582300006, -122.32034868399995)",Bertschi School,2227 10th Ave E,206.324.5476,www.bertschi.org,P-5,Seattle,98102-4177
+6,"(47.680857529000036, -122.32512336599996)",Billings Middle School,7217 Woodlawn Ave NE,206.547.4614,www.billingsmiddleschool.org,6-8,Seattle,98115-5335
+7,"(47.68891058200006, -122.33552591399996)",Bishop Blanchet High School,8200 Wallingford Ave N,206.527.7711,www.bishopblanchet.org,9-12,Seattle,98103-4599
+8,"(47.632387599000026, -122.32072224499996)",Bright Water School,1501 Tenth Ave E  Suite 100,206.624.6176,www.brightwaterschool.org,P-8,Seattle,98102-4256
+9,"(47.700629744000025, -122.32486574199999)",Brightmont Academy - Seattle Campus,9750 Third Ave NE  Ste 102,206.284.2300,www.brightmontacademy.com,6-12,Seattle,98115-2022
+10,"(47.71387447800004, -122.35349993999995)",Christ the King School,415 N 117th St,206.859.5111,www.ckseattle.org,P-8,Seattle,98133-8309
+11,"(47.68072946800004, -122.28904754199999)",Concordia Lutheran School,7040 36th Ave NE,206.525.7407,www.concordiaseattle.com,P-8,Seattle,98115-5966
+12,"(47.69916558400007, -122.31722234299997)",Dartmoor School--Seattle,9618 Roosevelt Way NE,425.885.1123,www.dartmoorschool.org,1-12,Seattle,98115-2236
+13,"(47.543098529000076, -122.26803099399996)",Derech Emunah dba Seattle Jewish Girls High Schl,5142 S Holly St,"888.944.1043
+206.790.1475",www.derechemunah.com,9-12,Seattle,98118
+14,"(47.618786112000066, -122.34671028899999)",Emerald City School,520 Denny Way,206.209.0950,www.emeraldcityschool.com,1-9,Seattle,98109-5003
+15,"(47.61806725500003, -122.28675729899999)",Epiphany School,3611 E Denny Way,206.323.9011,www.epiphanyschool.org,P-5,Seattle,98122-3423
+16,"(47.513201654000056, -122.36932962099996)",Explorer West Middle School,10015 28th Ave SW,206.935.0495,www.explorerwest.org,6-8,Seattle,98146-3708
+17,"(47.68566025200005, -122.31849399699996)",Fairview Christian School,844 NE 78th St,206.526.0762,www.fcsseattle.org,P-8,Seattle,98115-4202
+18,"(47.47044213400005, -122.35917513899994)",Family Academy/Academy NW,14629 20th Ave SW,206.246.9227,www.familyacademy.org,K-12,Seattle,98166-3709
+19,"(47.60320134600005, -122.30595623399995)",First Place Scholars School,172 20th Ave,"206.323.6715
+832.643.4300 (cell)",www.fpscholars.org,K-5,Seattle,98122-5862
+20,"(47.596919264000064, -122.30601201499996)",Giddens School,620 20th Ave S,206.324.4847,www.giddensschool.org,P-5,Seattle,98144-2209
+21,"(47.61337341700005, -122.30928639799998)",Hamlin Robinson School,1700 E Union St.,206.763.1167,www.hamlinrobinson.org,1-8,Seattle,98122-4140
+22,"(47.58348141100004, -122.30168898299996)",Her Academy,2200 Rainier Ave S  Suite 201,206.417.9904,www.yougrowgirl.org,6-8,Seattle,98144-4642
+23,"(47.51697571100004, -122.35946394999996)",Holy Family Bilingual Catholic School,9615 20th Ave SW,206.767.6640,www.hfseattle.org/school,P-8,Seattle,98106-2786
+24,"(47.626443907000066, -122.30429422899999)",Holy Names Academy,728 21st Ave E,206.323.4272,www.holynames-sea.org,9-12,Seattle,98112-4058
+25,"(47.56542100400003, -122.38501808299998)",Holy Rosary Elementary,4142 42nd Ave SW,206.937.7255,www.holyrosaryws.org,P-8,Seattle,98116-4202
+26,"(47.51897079100007, -122.35815475499999)",Hope Academy,9421 18th Ave SW,206.438.1778,http://hopeacademic.org,K-8,Seattle,98106-2717
+27,"(47.563418967000075, -122.38508786299997)",Hope Lutheran School,4456 42nd Ave SW,206.935.8500,www.hopeseattle.org,P-8,Seattle,98116-4223
+28,"(47.66476037800004, -122.35247908299999)",Kapka Cooperative School,510 N 49th St,206.522.0350,www.kapkaschool.org,K-5,Seattle,98103-6420
+29,"(47.76951887900003, -122.35205016199995)",Kings Schools,19303 Fremont Ave N,206.546.7211,www.kingsschools.org,P-12,Seattle,98133-3800
+30,"(47.60961835400008, -122.308640992)",Lake WA Girls Middle School,810 18th Ave,206.709.3800,www.lwgms.org,6-8,Seattle,98122-4747
+31,"(47.731430630000034, -122.32784327699994)",Lakeside School,14050 1st Ave NE,206.368.3600,www.lakesideschool.org,5-12,Seattle,98125-3099
+32,"(47.721124675000056, -122.29019701599998)",Laurel Academy,12700 35th Ave NE,206.522.5992,www.asaseattle.org,P-6,Seattle,98125-4508
+33,"(47.54962866200003, -122.28679746499995)",Makkah Islamic School,3613 S Juneau St,206.402.3964,makkahislamicschool.org,K-8,Seattle,98118-2600
+34,"(47.67745644300004, -122.38474299599994)",Matheia School,2205 NW 67th St,206.283.1828,www.matheia.org,K-5,Seattle,98117-5737
+35,"(47.66410110400005, -122.33117847399996)",Meridian School,4649 Sunnyside Ave N  Suite 242,206.632.7154,www.meridianschool.edu,K-5,Seattle,98103-6955
+36,"(47.69048274000005, -122.35228472299997)",MMSC Day School,8420 Dayton Ave N,206.523.9766,www.mmscdayschool.org,P-8,Seattle,98103-4249
+37,"(47.617177035000054, -122.33654449599999)",Morningside Academy,901 Lenora St,206.709.9500,www.morningsideacademy.org,1-9,Seattle,98121-2714
+38,"(47.719225624000046, -122.32171104599996)",North Seattle French School,12351 8th Ave NE,206.218.2175,www.northseattlefrenchschool.com,P-3,Seattle,98125-4805
+39,"(47.664806672000054, -122.35356919799995)",Northwest Montessori,4910 Phinney Ave N,206.524.4244,www.northwestmontessori.org,P-6,Seattle,98103-6347
+40,"(47.613391069000045, -122.32594232799994)",Northwest School,1415 Summit Ave,206.682.7309,www.northwestschool.org,6-12,Seattle,98122-3619
+41,"(47.60775635200008, -122.32481339799995)",O'Dea High School,802 Terry Ave,206.622.6596,www.odea.org,9-12,Seattle,98104-1294
+42,"(47.64724668000008, -122.39976574299999)",Our Lady of Fatima School,3301 W Dravus St,206.283.7031,www.olfatima.org,P-8,Seattle,98199-2624
+43,"(47.538873058000036, -122.375636843)",Our Lady of Guadalupe School,3401 SW Myrtle St,206.935.0651,guadalupe-school.org,P-8,Seattle,98126-3399
+44,"(47.69353537500007, -122.28935521799997)",Our Lady Of The Lake School,3520 NE 89th St,206.525.9980,www.ollseattle.org,P-8,Seattle,98115-3648
+45,"(47.66023160900005, -122.36416921999995)",Pacific Crest Schools,600 NW Bright St,206.789.7889,www.pacificcrest.org,P-8,Seattle,98107-4451
+46,"(47.596288765000054, -122.32426858799994)",Puget Sound Community School,660 S Dearborn St,206.324.4350,www.pscs.org,6-12,Seattle,98134-1328
+47,"(47.713270426000065, -122.32988314899995)",Root Academy,2332 N 116th St,425.260.9167,rootacademyseattle.com,P-8,Seattle,98133-8514
+48,"(47.61265937700006, -122.31629868499999)",Seattle Academy of Arts/Sciences,1201 E Union St,206.323.6600,www.seattleacademy.org,6-12,Seattle,98122-3925
+49,"(47.61598081500006, -122.30769518499994)",Seattle Amistad School,1625 19th Ave,206.330.6373,seattleamistadschool.org,P-4,Seattle,98122-2848
+50,"(47.709012561000065, -122.35497545299995)",Seattle Area German American School,11010 Greenwood Ave N,206.442.2023,www.sagaschool.org,P-5,Seattle,98133-8739
+51,"(47.60800894000005, -122.32910041999997)",Seattle Classical Christian School,1013 8th Ave,206.588.6403,www.seattleclassicalchristianschool.org,P-4,Seattle,98104-1222
+52,"(47.643440688000055, -122.35089961599999)",Seattle Country Day School,2619 4th Ave N,206.284.6220,www.seattlecountryday.org,K-8,Seattle,98109-1903
+53,"(47.63442242700006, -122.30792638399998)",Seattle Hebrew Academy,1617 Interlaken Dr E,206.323.5750,www.seattlehebrewacademy.org,P-8,Seattle,98112-3499
+54,"(47.719225624000046, -122.32171104599996)",Seattle Jewish Community School,12351 8th Ave NE,206.522.5212,www.sjcs.net,K-5,Seattle,98125-4805
+55,"(47.56503750400003, -122.38454732599996)",Seattle Lutheran High School,4100 SW Genesee St,206.937.7722,www.seattlelutheran.org,9-12,Seattle,98116-4216
+56,"(47.58880002300003, -122.29647557899995)",Seattle Nativity School,2800 S Massachusetts St,206.494.4708,www.seattlenativity.org,6-8,Seattle,98144-3870
+57,"(47.641321617000074, -122.31643691399995)",Seattle Preparatory School,2400 11th Ave E,206.577.2105,www.seaprep.org,9-12,Seattle,98102-4016
+58,"(47.53826769500006, -122.28405605599994)",Seattle Urban Academy,3800 S Othello St,206.723.0333,www.sua.org,9-12,Seattle,98118-3562
+59,"(47.68212498100007, -122.26330105099998)",Seattle Waldorf High School,7400 Sandpoint Way, ,www.seattlewaldorf.org,9-12,Seattle,98115-8186
+60,"(47.70158076000007, -122.29732953399997)",Seattle Waldorf School,2728 NE 100th St,206.524.5320,www.seattlewaldorf.org,P-12,Seattle,98125-7712
+61,"(47.736410987000056, -122.30305466199997)",Shoreline Christian School,2400 NE 147th St,206.364.7777,www.shorelinechristian.org,P-12,Seattle,98155-7395
+62,"(47.510835359000055, -122.36753821999997)",Shorewood Christian School,10300 28th Ave SW,206.933.1056,shorewoodchristianschool.org,P-8,Seattle,98146-1211
+63,"(47.659059125000056, -122.28180598099999)",Sno-King Academy,4117 43rd Ave NE,425.697.4021,snokingacad@aol.com,3-12,Seattle,98105-5105
+64,"(47.62224411200003, -122.35849662499999)",Solve for X School,100 W Harrison,206.250.8687,www.solveforxschool.org,6-8,Seattle,98119-4116
+65,"(47.69999360000003, -122.32662611599994)",Spring Academy,9725 3rd Ave NE  Suite 125,206.363.3600,www.springacademy.com,6-12,Seattle,98125-6111
+66,"(47.61687319400005, -122.33533240499997)",Spruce Street School,914 Virginia St,206.621.9211,www.sprucestreetschool.org,K-5,Seattle,98101-1426
+67,"(47.671198608000054, -122.37568392999998)",St. Alphonsus School,5816 15th Ave NW,206.782.4363,www.stalseattle.org,P-8,Seattle,98107-3096
+68,"(47.63110511200006, -122.35813769399999)",St. Anne School,101 W Lee St,206.282.3538,www.stannesea.org,P-8,Seattle,98119-3321
+69,"(47.66380094200008, -122.33676626399995)",St. Benedict School,4811 Wallingford Ave N,206.633.3375,www.stbens.net,P-8,Seattle,98103-6899
+70,"(47.489585669000064, -122.34845311699996)",St. Bernadette School,1028 SW 128th St,206.244.4934,www.stbernadettesea.org,P-8,Seattle,98146-3198
+71,"(47.69112059300005, -122.32011433899999)",St. Catherine School,8524 8th Ave NE,206.525.0581,www.stcatherineschool.net,P-8,Seattle,98115-3099
+72,"(47.56503750400003, -122.38454732599996)",St. Christopher Academy,4100 SW Genesee St,206.246.9751,www.stchristopheracademy.com,9-12,Seattle,98116-4282
+73,"(47.550633101000074, -122.27991364799999)",St. Edwards School,4200 S Mead St,206.725.1774,www.saintedwardseattle.org,P-8,Seattle,98118-2795
+74,"(47.55586612400003, -122.31641141299997)",St. George School,5117 13th Ave S,206.762.0656,www.saintgeorgeseattle.org,P-8,Seattle,98108-2309
+75,"(47.68639414000006, -122.357634556)",St. John School,120 N 79th St,206.783.0337,www.st-johnschool.org,P-8,Seattle,98103-4688
+76,"(47.62547818000007, -122.30827667599999)",St. Joseph School,700 18th Ave E,206.329.3260,www.stjosephsea.org,K-8,Seattle,98112-3900
+77,"(47.72154541500004, -122.31392479799996)",St. Matthew School,1230 NE 127th St,206.362.2785,www.stmattschool.org,P-8,Seattle,98125-4021
+78,"(47.51042025800007, -122.26276563099998)",St. Paul School,10001 57th Ave S,206.725.0780,www.seattlestpaul.org,P-8,Seattle,98178-2299
+79,"(47.61118419500008, -122.28800275499998)",St. Therese Catholic Academy,900 35th Ave,206.324.0460,www.stcaseattle.org,P-8,Seattle,98122-5299
+80,"(47.521904412000026, -122.38787410199996)",Taproot School,9131 California Ave SW,206.849.7146,www.taprootschool.org,K-5,Seattle,98136-2551
+81,"(47.62290728500005, -122.28879287699999)",The Bush School,3400 E Harrison,206.322.7978,www.bush.edu,K-12,Seattle,98112-4268
+82,"(47.57498653000005, -122.28536135599995)",The Lake and Park School,3201 Hunter Blvd S,206.721.3480,www.lakeandpark.org,K-5,Seattle,98144-7029
+83,"(47.62169507900006, -122.29231492199995)",The Valley School,309 31st Ave E,206.328.4475,www.thevalleyschool.org,P-5,Seattle,98112-4819
+84,"(47.56614858900008, -122.38719025199998)",Tilden School,4105 California Ave SW,206.938.4628,www.tildenschool.org,K-5,Seattle,98116-4101
+85,"(47.56224453600004, -122.31217720599994)",Torah Day School of Seattle,1625 S Columbian Way,206.722.1200,www.tdsseattle.org,P-8,Seattle,98108-4634
+86,"(47.66664859400004, -122.31817801499994)",University Child Development School,5062 9th Ave NE,206.547.8237,www.ucds.org,P-5,Seattle,98105-3605
+87,"(47.66965404300004, -122.31336034399999)",University Cooperative School,5601 University Ave NE,206.524.0653,www.ucoopschool.org,K-5,Seattle,98105-2619
+88,"(47.68699883700003, -122.30013291199998)",University Preparatory,8000 25th Ave NE,206.525.2714,www.universityprep.org,6-12,Seattle,98115-4600
+89,"(47.66368030400008, -122.27324033399998)",Villa Academy,5001 NE 50th St,206.524.8885,www.thevilla.org,P-8,Seattle,98105-2899
+90,"(47.509592475000034, -122.37416920499999)",Westside School,10404 34th Ave SW,206.932.2511,www.westsideschool.org,P-8,Seattle,98146-1270
+91,"(47.61432262900007, -122.31257211599996)",Xceed Preparatory School,1501 E Madison St,253.312.4014,www.xceedprep.org,6-12,Seattle,98122-4499
