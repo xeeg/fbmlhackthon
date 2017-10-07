@@ -1,4 +1,4 @@
-zip code,total pop,median household incme,median housing value,city,state
+zip_code,total_pop,median_household_incme,median_housing_value,city,state
 98112,21622,96054,754200,seattle,wa
 98177,18642,95648,478600,seattle,wa
 98117,30719,86986,463500,seattle,wa
