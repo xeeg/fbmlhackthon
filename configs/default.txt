@@ -8,7 +8,6 @@ verbosity: INFO
 
 # input: # Default is set in config.py
 input_type: Raw
-target_election: p2013
 # prediction_output: # Default is set in config.py
 # preprocessed_output: # Default is set in config.py
 # viz_output: # Default is set in config.py

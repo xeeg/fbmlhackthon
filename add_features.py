@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 
 import config
-import model_stats
 
 import os, sys, yaml, logging
 import time
@@ -14,11 +13,9 @@ def get_zipcode(long, lat):
 
 def add_features(df, year, zipcode):
 
-    df['zipcode'] = get_zipcode(df['long'], df['lat'])
-    
+    df['zipcode'] = get_zipcode(df['long'], df['lat'])    
     return df
 
-   
 def main():
 
     start_time = time.time()
