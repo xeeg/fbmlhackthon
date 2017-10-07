@@ -24,13 +24,13 @@ def get_config():
 
     options = p.parse_args()
     options.project_folder = PROJECTFOLDER
-    folder_map = {'Raw': 'raw',
+    folder_map = {'Raw': 'input',
                 'Preprocessed': 'interim',
                 'FeatureEngineered': 'interim'}
 
     options.input = os.path.join(PROJECTFOLDER,'datasets', 
-                                 folder_map.get(options.input_type), "input.pkl") 
-    options.output = os.path.join(PROJECTFOLDER,'datasets', "output","output.pkl")
+                                 folder_map.get(options.input_type), "building_perms_current_cleaned.csv") 
+    options.output = os.path.join(PROJECTFOLDER,'datasets', "output","count_file.pkl")
     
     if not os.path.exists(options.job_folder):
         os.makedirs(options.job_folder)

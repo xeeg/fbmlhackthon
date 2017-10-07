@@ -18,11 +18,12 @@ from keras.wrappers.scikit_learn import KerasClassifier
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error
 
-def get_train_test(df, year, zipcode):
-
+def get_train_test(X, Y, year):
+    # Remove old years
+     
     # Train Test Split for Features
-    X = df
     X_train, X_test = train_test_split(X, test_size=0.2, random_state=42)
+    Y_train, Y_test = train_test_split(Y, test_size=0.2, random_state=42)
     return (X_train, Y_train, X_test, Y_test)
 
 def add_features(df, year, zipcode):
@@ -32,9 +33,7 @@ def add_features(df, year, zipcode):
     return df
    
 def convert_data_to_series(X, Y):
-    presidential_years = [2016, 2012, 2008, 2004, 2000, 1996]
-    midterm_years      = [2014, 2010, 2006, 2002, 1998]
-    odd_years = [2015, 2013, 2011, 2009, 2007, 2005, 2003, 2001]
+
     methods = ['','ineligible','novote_eligible','method_early','method_absentee']
     prim_or_gen = [0, 1]
     p_or_gs = ['p', 'g']
@@ -84,19 +83,18 @@ def convert_data_to_series(X, Y):
     
 
 
-def train(df, target_zipcode, model_type, hptuning, job_folder):
+def train(X, Y, target_year, hptuning, job_folder):
     """Trains a model. Note that this is *only* the training step. This method expects data that has already 
     gone through preprocessing and feature engineering.
 
     Args:
       df: Dataframe of data that has gone through preprocessing and feature engineering
-      target_election: Target election of the form 'p2013' where the first character indicates primary or general.
       model_type: Type of model to train.
       hptuning: Hyperparameter tuning paramgrid.
       job_folder: File to export saved model to.
     """
-
-    X_train, Y_train, X_test, Y_test = get_train_test(df, target_zipcode, target_business_type)        
+    target_year = 2017
+    X_train, Y_train, X_test, Y_test = get_train_test(X, Y, target_year)        
     
     X_train_ds, Y_train_ds = convert_data_to_series(X_train, Y_train)
     X_test_ds, Y_test_ds = convert_data_to_series(X_test, Y_test)
@@ -178,10 +176,12 @@ def main():
         raise RuntimeError('train_model.py expects input that has already been preprocessed and feature engineered. Consult the README.')
 
     logging.debug('Reading input %s' % options.input)
-    df = pd.read_pickle(options.input)
+    X = pd.read_csv(options.input)
+    Y = pd.read_pickle(options.output)
+
     logging.debug('Finished reading %s' % options.input)
 
-    train(df, options.target_election, options.model_type, options.hptuning, options.job_folder)
+    train(X, Y, options.model_type, options.hptuning, options.job_folder)
     
     print("--- Execution time:  %s seconds ---" % (time.time() - start_time))
     
