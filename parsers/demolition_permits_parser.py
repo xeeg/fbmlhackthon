@@ -1,7 +1,5 @@
 #!/usr/bin/python
 
-# Parser for Demolition_Permits__Current.csv
-
 from geopy.geocoders import Nominatim
 
 
@@ -30,6 +28,6 @@ with open('sample.csv','rb') as csvin, open('new.csv', 'wb') as csvout:
                 if len(latlong_split) > 3:
                     latlong = latlong_split[-2] + "," + latlong_split[-1]
                 zip = get_zipcode(latlong)
-                line = ",".join([applicationYear, zip, row[:-1]])
+                line = ",".join([applicationYear, zip, row])
 
                 csvout.write(line)
