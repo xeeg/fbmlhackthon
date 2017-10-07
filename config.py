@@ -12,7 +12,7 @@ def get_config():
     p.add('--job_folder', help='Folder for job output', default=os.path.join(PROJECTFOLDER, 'jobs', 'job_%s' % (strftime("%Y%m%d_%H%M"))))
 
     # Configuration for both training and prediction
-    p.add('--input', help='Input to train or predict. Typically a folder containing five raw files dumped from Vertica.', default=os.path.join(PROJECTFOLDER,'data','raw'))
+    p.add('--input', help='Input to train or predict. Typically a folder containing five raw files dumped from Vertica.', default=os.path.join(PROJECTFOLDER,'datasets','raw'))
     p.add('--input_type', help='Allows for skipping preprocessing or feature engineering with interim data', choices=['Raw', 'Preprocessed', 'FeatureEngineered'])
 
     # Configuration for training only
@@ -28,9 +28,9 @@ def get_config():
                 'Preprocessed': 'interim',
                 'FeatureEngineered': 'interim'}
 
-    options.input = os.path.join(PROJECTFOLDER,'data', 
-                                 folder_map.get(options.input_type), 
-                                 file_map.get(options.sample_size))    
+    options.input = os.path.join(PROJECTFOLDER,'datasets', 
+                                 folder_map.get(options.input_type), "input.pkl") 
+    options.output = os.path.join(PROJECTFOLDER,'datasets', "output","output.pkl")
     
     if not os.path.exists(options.job_folder):
         os.makedirs(options.job_folder)

@@ -14,7 +14,6 @@ input_type: Raw
 # engineered_output: # Default is set in config.py
 
 #### Configuration for training only
-sample_size: All
 model_type: XGBoost
 # hptuning_config: # Default is set in config.py
 # model_output: # Default is set in config.py
