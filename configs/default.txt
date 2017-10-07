@@ -1,0 +1,25 @@
+# Default Configuration for the V1 Model
+
+# Note: Defaults that are file paths are set in code so that they can be relative to the repo location.
+
+verbosity: INFO
+
+#### Configuration for both training and prediction
+
+# input: # Default is set in config.py
+input_type: Raw
+target_election: p2013
+# prediction_output: # Default is set in config.py
+# preprocessed_output: # Default is set in config.py
+# viz_output: # Default is set in config.py
+# engineered_output: # Default is set in config.py
+
+#### Configuration for training only
+sample_size: All
+model_type: XGBoost
+# hptuning_config: # Default is set in config.py
+# model_output: # Default is set in config.py
+
+#### Configuration for prediction only
+# model_input # No default. If running prediction, this must be provided.
+# predictions_input # No default. If running prediction, this must be provided.

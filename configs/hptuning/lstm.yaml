@@ -1,0 +1,37 @@
+batch_size: 
+ - 0
+ - 20
+ - 40
+ - 60
+ - 80
+ - 100
+epochs:
+ - 10
+ - 50
+ - 100
+neurons:
+ - 4
+ - 8
+ - 16
+ - 32
+learn_rate: # sgd and adam and RMSprop
+ - 0.001
+ - 0.01
+ - 0.1
+ - 0.2
+ - 0.3
+momentum: # sgd
+ - 0.0
+ - 0.2
+ - 0.4
+ - 0.6
+ - 0.8
+ - 0.9
+loss: 
+ - 'binary_crossentropy'
+ - 'mean_squared_error'
+optimizer:
+ - 'adam'
+ - 'sgd'
+ 
+# optimizer = ['SGD', 'RMSprop', 'Adagrad', 'Adadelta', 'Adam', 'Adamax', 'Nadam']

@@ -1,0 +1,9 @@
+learning_rate: 
+ - 0.05
+gamma:
+ - 0.05
+ - 0.7
+ - 1.0
+max_depth:
+ - 9
+ - 25
